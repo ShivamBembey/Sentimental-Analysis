@@ -1,0 +1,6 @@
+from facepy import GraphAPI
+graph = GraphAPI("EAAT0hTaXZAS4BAAqmO6Sii20y2MxfmJRX6FxgVwAIgASuBrgXFP4K75o5F4CvzHmHIaLRA2uNARZA1SrBNPFO9FF60KYzUDoTriOEEgGLmSxXCKSygeiYZAukEx88ZA3r9CWZARg1lbkT5syJfRcapp7Je9eMFjaqDSvLMpOq8jkTfqhAg1gcyU2xx7z5efAZD")
+
+# Get my latest posts
+a=graph.get('me/posts')
+print(a)
